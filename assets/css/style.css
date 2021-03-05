@@ -1,0 +1,240 @@
+/*
+	TutuBox Webdesign
+	By @CrafterPika
+	Special Thanks to @DevCasp
+	(c) CrafterPika 2020
+	License: none
+*/
+
+body{
+  background-color: #000000;
+  font-family: Arial;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50px;
+}
+  
+.btn:hover {
+  background-color: RoyalBlue;
+  transition: 1000ms;
+}
+
+.text-p{
+  text-align: center;
+  color: #4f5654;
+}
+
+.text-a{
+  text-align: center;
+  color: #4f5654;
+}
+
+.text-a:hover{
+  text-align: center;
+  color:#ada0a0;
+  transition: 1000ms;
+}
+
+.text-a2{
+  text-align: center;
+  color: DodgerBlue;
+}
+
+.text-a2:hover{
+  text-align: center;
+  color: #4f5654;
+  transition: 1000ms;
+}
+
+
+.text-h1-white{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.text-h3{
+  text-align: center;
+  color: #4f5654;
+}
+
+.Main-Icon{
+  width: 100px;
+  border-radius: 15px;
+}
+
+hr { 
+  border-color: #4f5654;
+  background-color: #4f5654;
+}
+
+.text-white{
+  text-align: center;
+  color: #ffffff;
+}
+
+.credits{
+  width:85%;
+  max-width:350px;
+  height:60px;
+  background-color:#111;
+  padding:10px;
+  border-radius:20px;
+}
+
+.credits-icon{
+  width:60px;
+  border-radius:30%;
+  float:left;
+}
+
+.credits-name{
+  font-family:helvetica;
+  color:#FFFAFA;
+  font-size:17px;
+  margin:5px;
+  margin-left:70px;
+  text-align:justify;
+}
+
+.credits-position{
+  font-family:helvetica;
+  color:#f2f2f2;
+  font-size:14px;
+  margin:5px;
+  margin-left:70px;
+  text-align:justify;
+}
+
+
+
+.get-btn {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007AFF;
+    padding: 3px 18px 5px 18px;
+    border-radius: 50px;
+    float: right;
+    margin: 17px;
+}
+
+.img-padding{
+  padding: 3px;
+  background-color: #4f5654;
+}
+
+}
+body{
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #262626;
+}
+ul{
+  display: flex;
+}
+ul li{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: .5s;
+}
+ul li:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+ul li:nth-child(1):before{
+  background: #4267B2;
+}
+ul li:nth-child(2):before{
+  background: #1DA1F2;
+}
+ul li:nth-child(3):before{
+  background: #E1306C;
+}
+ul li:nth-child(4):before{
+  background: #2867B2;
+}
+ul li:nth-child(5):before{
+  background: #ff0000;
+}
+ul li:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+ul li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #2867B2;
+}
+ul li:nth-child(5):hover:before{
+  box-shadow: 0 0 15px #ff0000;
+}
+ul li:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+ul li:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+ul li:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+ul li:nth-child(4):hover{
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867B2;
+  text-shadow: 0 0 15px #2867B2;
+}
+ul li:nth-child(5):hover{
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+/* ul li:hover{
+  color: #ffa502;
+  box-shadow: 0 0 15px #d35400;
+  text-shadow: 0 0 15px #d35400;
+} */
+
+.checked {
+  color: orange;
+}
