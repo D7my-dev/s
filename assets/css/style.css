@@ -238,3 +238,31 @@ ul li:nth-child(5):hover{
 .checked {
   color: orange;
 }
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-telegram {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
